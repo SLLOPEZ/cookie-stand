@@ -2,8 +2,10 @@
 
 ##Stages of project completed:
 - Daily sales projection
+- Basic style Guide
 
 ##Stuff I learned:
 - Object literals
-- Methods 
+- Methods
 - Render to page
+- Style guide

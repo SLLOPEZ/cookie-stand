@@ -1,0 +1,35 @@
+body {
+  font-family: Times;
+}
+h2{
+  font-family: Source Sans Pro;
+}
+.diff{
+  font-weight: bold;
+}
+#title {
+  text-align: center;
+  font-family: Source Sans Pro;
+}
+.colorSquare {
+  width: 20%;
+  display: inline-block;
+  font-size: 0.833em;
+  height: 150px;
+  padding: 0% 2%;
+}
+#offWhite {
+  background-color: #F0ECEB;
+}
+#blue {
+  background-color: #729F98;
+  color: white;
+}
+#gold {
+  background-color: #AA863A;
+  color: white;
+}
+#darkGreen {
+  background-color: #283018;
+  color: white;
+}
