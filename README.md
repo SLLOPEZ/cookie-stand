@@ -4,6 +4,7 @@
 - Daily sales projection
 - Basic style Guide
 - Constructor function
+- Added to style guide
 
 ##Stuff I learned:
 - Object literals

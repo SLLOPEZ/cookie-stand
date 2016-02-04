@@ -1,15 +1,26 @@
-body {
-  font-family: Times;
-}
-h2{
-  font-family: Source Sans Pro;
+#title {
+  text-align: center;
+  font-size: 2em;
 }
 .diff{
   font-weight: bold;
 }
-#title {
-  text-align: center;
+#typography #headings h1{
+  font-size: 2em;
   font-family: Source Sans Pro;
+  margin: 1%;
+  color: #283018;
+}
+#typography #headings h2,h3{
+  font-family: Source Sans Pro;
+  margin: 1%;
+  color: #283018;
+}
+#exbody{
+  font-family: Times;
+}
+#exdata{
+  font-family: Helvetica;
 }
 .colorSquare {
   width: 20%;
