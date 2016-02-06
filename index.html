@@ -5,7 +5,25 @@
     <title>Cookie Stand</title>
   </head>
   <body>
-    <section id='shops'></section>
+    <table id='salesTable'><h3>Projected Sales</h3></table>
+    <form id='addStore'>
+      <fieldset>
+        <legend><h3>Add a store</h3></legend>
+        <label> Store Name:
+          <input type='text' id='name'>
+        </label> <br>
+        <label>Minimum customers per hour:
+          <input type='text' id='minCust'>
+        </label> <br>
+        <label>Maximum customers per hour:
+          <input type='text' id='maxCust'>
+        </label> <br>
+        <label>Average of cookies purchased:
+          <input type='text' id='avgCookie'>
+        </label> <br>
+        <button type="submit" id="addStoreButton" name="button">Add new store</button>
+      </fieldset>
+    </form>
     <script src='app.js'></script>
   </body>
 </html>
