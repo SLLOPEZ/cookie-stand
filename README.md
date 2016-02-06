@@ -5,6 +5,8 @@
 - Basic style Guide
 - Constructor function
 - Added to style guide
+- Form to add new store's data
+- Table has been implemented
 
 ##Stuff I learned:
 - Object literals
@@ -12,3 +14,6 @@
 - Render to page
 - Style guide
 - How to implement constructor functions
+- Tables
+- Events
+- Forms
