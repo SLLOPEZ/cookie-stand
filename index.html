@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <title>Cookie Stand</title>
+    <meta charset="utf-8">
+    <title>Pat's Cookie Stand</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type='text/css' href="vendors/animate.css">
+    <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
-  <body>
-    <table id='salesTable'><h3>Projected Sales</h3></table>
-    <form id='addStore'>
-      <fieldset>
-        <legend><h3>Add a store</h3></legend>
-        <label> Store Name:
-          <input type='text' id='name'>
-        </label> <br>
-        <label>Minimum customers per hour:
-          <input type='text' id='minCust'>
-        </label> <br>
-        <label>Maximum customers per hour:
-          <input type='text' id='maxCust'>
-        </label> <br>
-        <label>Average of cookies purchased:
-          <input type='text' id='avgCookie'>
-        </label> <br>
-        <button type="submit" id="addStoreButton" name="button">Add new store</button>
-      </fieldset>
-    </form>
-    <script src='app.js'></script>
+  <body id='body'>
+    <header id='header'>
+      <h1>Pat's Salmon Cookies</h1>
+      <nav>
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='sales.html'>Sales</a></li>
+          <li><a href='styleguide.html'>Style</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id='main'>
+      <section class='animated rubberBand'id='fish-animation'>
+        <img src='images/salmon.png'/>
+      </section>
+      <section id='main-content'>
+        <h2>Salmon cookies made with fish, Salmon cookies are delish!</h2>
+        <div id='left-ipsum'>
+          <p>You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. Look at the sunset, life is amazing, life is beautiful, life is what you make it.</p>
+        </div>
+        <div id='right-ipsum'>
+          <p>Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Learning is cool, but knowing is better, and I know the key to success. Don’t ever play yourself.</p>
+        </div>
+      </section>
+      <section id='about-us'>
+        <h2>About us</h2>
+        <p>The key is to enjoy life, because they don’t want you to enjoy life. I promise you, they don’t want you to jetski, they don’t want you to smile. To succeed you must believe. When you believe, you will succeed. Stay focused. To succeed you must believe. When you believe, you will succeed. The key to success is to keep your head above the water, never give up. The key to success is to keep your head above the water, never give up.</p>
+      </section>
+      <section id='store-content'>
+        <div id='left-content'>
+        <h2>Wear</h2>
+        <p>Salmon Shirt</p>
+        <img src='images/shirt.jpg'/>
+        </div>
+        <div id='right-content'>
+          <h2>Upcoming Events</h2>
+          <img src='images/fishies.jpg'/>
+          <ul>
+            <li>
+              <a href='http://salmonfestseattle.com/'>SalmonFest Seattle</a>
+            </li>
+            <li>
+              <a href='http://www.salmonfest.org/'>Wenatchee River Salmon Festival</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id='team'>
+        <h2>Our Team</h2>
+        <img src='images/family.jpg'/>
+      </section>
+    </main>
+    <footer id='footer'>
+      <p><small>Coded by S Lopez</small></p>
+    </footer>
   </body>
 </html>
