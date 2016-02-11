@@ -7,6 +7,7 @@
 - Added to style guide
 - Form to add new store's data
 - Table has been implemented
+- Home page has been added
 
 ##Stuff I learned:
 - Object literals
@@ -17,3 +18,5 @@
 - Tables
 - Events
 - Forms
+- CSS  layout
+- Animations

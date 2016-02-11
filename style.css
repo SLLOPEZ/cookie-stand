@@ -1,20 +1,96 @@
-#title {
-  text-align: center;
-  font-size: 2em;
+body{
+  font-family: Times;
+  width: 90%;
+  margin: auto;
 }
-.diff{
-  font-weight: bold;
+h1, h2, h3{
+  font-family: Source Sans Pro;
+  color: #485A24;
+}
+#header{
+  text-align: center;
+}
+#main{
+  overflow: auto;
+  margin: 1%;
+}
+#about-us{
+  padding: 0% 2%;
+  text-align: justify;
+}
+#team{
+  text-align: center;
+}
+#footer{
+  background-color: #485A24;
+  padding: 0.5em;
+  margin: 1%;
+}
+nav ul{
+  padding-left: 0px;
+}
+nav li{
+  display: inline-block;
+  padding-right: 10px;
+}
+a{
+  color: #485A24;
+}
+a:hover{
+  color: #AA863A;
+}
+#main-content h2{
+  text-align: center;
+}
+#fish-animation img{
+  display: block;
+  margin: 0% auto;
+}
+#left-ipsum, #right-ipsum{
+ width: 44%;
+ padding: 0% 2%;
+ text-align: justify;
+ float: left;
+}
+#left-content, #right-content{
+  display: inline-block;
+  vertical-align:top;
+  width: 44%;
+  padding: 0% 2%;
+}
+#right-content img{
+  padding-top: 30px;
+}
+#footer p{
+  text-align: center;
+}
+table{
+  font-family: Helvetica;
+}
+th, td{
+  padding: 5px 5px;
+}
+tr:hover{
+  background-color: #F0ECEB;
+}
+td:hover, th:hover{
+  background-color: #AA863A;
 }
 #typography #headings h1{
   font-size: 2em;
   font-family: Source Sans Pro;
   margin: 1%;
-  color: #283018;
+  color: #485A24;
 }
 #typography #headings h2,h3{
   font-family: Source Sans Pro;
-  margin: 1%;
-  color: #283018;
+  color: #485A24;
+}
+.diff{
+  font-weight: bold;
+}
+.change{
+  color: #000000;
 }
 #exbody{
   font-family: Times;
@@ -41,6 +117,6 @@
   color: white;
 }
 #darkGreen {
-  background-color: #283018;
+  background-color: #485A24;
   color: white;
 }
